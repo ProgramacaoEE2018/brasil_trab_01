@@ -2,12 +2,14 @@
 
 int main(){
     int nVE, i;
-    float ve[50], mediave, soma=0, vc, vf;
+    float mediave, soma=0, vc, vf;
 
 
     printf("Quantas VE's voce fez?\n");
     scanf("%d",&nVE);
-
+   
+   float ve[nVE];
+   
     for(i=0;i<nVE;i++){
         printf("Quanto voce tirou na VE%d?\n",i+1);
         scanf("%f",&ve[i]);

@@ -1,0 +1,5 @@
+Neste programa, ha apenas o codigo em linguagem C para calcular, a partir das 
+notas de VEs e VC, a nota necessária que o aluno deve tirar na VF para ele ser 
+aprovado. Neste programa foi considerado que o aluno entrara com a quantidade
+de provas e depois com os valores de VE e VC como um numero float entre 0.00 e 
+10.00, então será mostrado quanto ele deve tirar para ser aprovado.
